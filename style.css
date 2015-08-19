@@ -1,0 +1,168 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+img {
+  border: 0;
+}
+.head {
+  width: 100%;
+  height: 77px;
+}
+.head .wrap {
+  height: 77px;
+}
+.head .wrap img {
+  float: left;
+  margin-top: 10px;
+}
+.head .wrap .phone {
+  float: right;
+  margin-top: 15px;
+}
+.head .wrap .company {
+  margin: 20px 0 0 10px;
+}
+.wrap {
+  margin: 0 auto;
+  width: 1182px;
+  overflow: hidden;
+}
+.banner {
+  width: 100%;
+  text-align: center;
+}
+.banner img {
+  width: 100%;
+}
+.login {
+  display: none;
+  width: 500px;
+  height: 400px;
+  background: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -250px;
+  z-index: 10;
+  border: 1px solid #eee;
+}
+.login h1 {
+  font-size: 16px;
+  color: #7d7d7d;
+  background: #f1f1f1;
+  padding: 20px 20px;
+  margin: 0;
+  border: 1px solid #c6c6c6;
+}
+.login h1 img {
+  width: 25px;
+  height: 24px;
+  vertical-align: middle;
+  margin-left: 35px;
+}
+.login p {
+  margin-top: 100px;
+  text-align: center;
+}
+.login p img {
+  width: 20px;
+  height: 30px;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
+.login p input {
+  width: 200px;
+  height: 40px;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  color: #7d7d7d;
+  font-size: 20px;
+}
+.login .submit input {
+  border: 0;
+  background: url(image/liji.png);
+  width: 203px;
+  height: 45px;
+  cursor: pointer;
+}
+.login .foot {
+  color: #ababab;
+  font-size: 14px;
+  text-align: center;
+}
+.login .foot span {
+  color: #ababab;
+  font-size: 14px;
+  margin: 0 10px;
+}
+.history {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+.history a img {
+  vertical-align: top;
+}
+.history .left {
+  float: left;
+}
+.history .right {
+  float: right;
+}
+.fuli {
+  overflow: hidden;
+}
+.fuli a:first-child {
+  margin-left: 91px;
+}
+.fuli a {
+  float: left;
+}
+.why {
+  width: 100%;
+  height: 504px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.intro,
+.chanpin {
+  text-align: center;
+}
+.fenxi a:first-child,
+.register a:first-child {
+  margin-left: 90px;
+}
+.fenxi a,
+.register a {
+  float: left;
+}
+.register .wrap {
+  position: relative;
+}
+.register .wrap .click {
+  width: 223px;
+  height: 50px;
+  position: absolute;
+  top: 249px;
+}
+.register .wrap .cl_1 {
+  left: 106px;
+}
+.register .wrap .cl_2 {
+  left: 357px;
+}
+.register .wrap .cl_3 {
+  right: 365px;
+}
+.register .wrap a:last-child {
+  right: 105px;
+}
+.friend {
+  background: #eeeeee;
+}
+.friend img {
+  margin-left: 90px;
+}
