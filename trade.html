@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>中国现货交易网</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+	<div class="head">
+		<div class="wrap">
+			<img src="image/Logo_1.png">
+			<img src="image/company.png" class="company">
+			<img src="image/phone.png" class="phone">
+		</div>
+	</div>
+	<div class="banner">
+		<img src="image/banner_1.png">
+	</div>
+	<div class="login">
+		<h1>注册手机号即为您的软件登陆账号，pc,app一帐通用
+			<a href="javascript:void(0);" id="cancel"><img src="image/cancel.png"></a>
+		</h1>
+	<form action="http://www.rihui158.com/include/register.php" method="post">
+		<p class="cellphone">
+			<label for="cel_num">
+				<img src="image/cellphone.png">
+				手机号：
+			</label>
+			<input type="text" id="cel_num" />
+		</p>
+		<p class="submit"><input type="submit" value="" /></p>
+	</form>
+	<div class="foot">
+		<span>截止2015年8月18日</span>|
+		<span>浏览：896524次</span>|
+		<span>已下载：206503次</span>
+	</div>
+	</div>
+	<div class="history">
+		<a href="javascript:void(0);" class="click left"><img src="image/zhanghu.png"></a>
+		<a class="his_pic"><img src="image/history.png"></a>
+		<a href="javascript:void(0);" class="click right"><img src="image/shouyi.png"></a>
+	</div>
+	<div class="fuli">
+		<div class="wrap">
+			<a><img src="image/fuli.png"></a>
+			<a href="javascript:void(0);" class="click"><img src="image/fuli_get.png"></a>
+		</div>
+	</div>
+	<div class="why">
+	 	<img src="image/why.png">
+	</div>
+	<div class="intro">
+		<img src="image/intro.png">
+	</div>
+	<div class="chanpin">
+		<img src="image/chanpin.png">
+	</div>
+	<div class="fenxi">
+		<div class="wrap">
+			<a><img src="image/fenxi_1.png"></a>
+			<a href="javascript:void(0);" class="click"><img src="image/fenxi_2.png"></a>
+			<a><img src="image/fenxi_3.png"></a>
+			<a href="javascript:void(0);" class="click"><img src="image/fenxi_4.png"></a>
+		</div>
+	</div>
+	<div class="register">
+		<div class="wrap">
+			<a><img src="image/register.png"></a>
+			<a><img src="image/register_1.png"></a>
+			<a href="javascript:void(0);" class="click cl_1"></a>
+			<a href="javascript:void(0);" class="click cl_2"></a>
+			<a href="javascript:void(0);" class="click cl_3"></a>
+			<a href="javascript:void(0);" class="click"></a>
+		</div>
+	</div>
+	<div class="friend">
+		<div class="wrap">
+			<img src="image/friend.png">
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			$("#cancel").click(function(){
+				$(".login").css("display","none");
+			}),
+			$(".click").click(function(){
+				$(".login").css("display","block");
+			})
+
+		})
+	</script>
+</body>
+</html>
